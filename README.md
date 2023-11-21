@@ -1,20 +1,18 @@
 # Pruebas Automatizadas (Playwright + JS)
 
-_Este repositorio tiene como objetivo probar el SUT "Wisoft Contract Management"._
+_Este repositorio incluye los siguientes items._
 
 -   Reportes en XML al ejecutar en modo headless
 -   Carpeta y path correspondiente para POM (pages)
 -   Configuración necesaria para generar reportes de pruebas
 -   Configuración de VScode
 
-_Nota: la rama master se utilizará como template para poder utilizar en otros proyectos. En la rama de QA se implementarán las pruebas._
-
 ## Comenzando 🚀
 
 Clonar repositorio:
 
 ```markdown
-git clone git@bitbucket.org:AIASAP/contract_qa_automation.git
+git clone https://github.com/LauraMont/LR-Playwright.git
 
 ### Pre-requisitos 📋
 
@@ -111,8 +109,7 @@ npm run file tests/rutaFile/exampleAdvanceTest.spec.ts
     ```
     git push
     ```
-12. En bitbucket: vamos a sección Pull request del repo
-13. Creamos pull request haciendo click en el botón Create Pull Request
+12. Creamos pull request haciendo click en el botón Create Pull Request
     - Resumen de cambios
     - Resultado de Pruebas
     - Observaciones
