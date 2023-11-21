@@ -1,0 +1,36 @@
+{
+	"name": "contract_qa_automation",
+	"version": "1.0.0",
+	"description": "Repositorio de QA para el proyecto de Contract Managment que utiliza playwright con typescript",
+	"main": "cypress.config.js",
+	"scripts": {
+		"pw:install": "npx playwright install --with-deps",
+		"test:plan": "npx playwright test --project=chromium --list",
+		"test": "npx playwright test --project=chromium --ui",
+		"file": "npx playwright test --project=chromium --headed",
+		"debug": "npx playwright test --project=chromium --debug --reporter=list",
+		"regression": "npx playwright test --project=chromium",
+		"allure": "allure generate --clean",
+		"allure:open": "allure generate --clean && allure open --host localhost --port 9090"
+	},
+	"keywords": [
+		"playwright"
+	],
+	"author": "Laura Montaño",
+	"license": "ISC",
+	"type": "module",
+	"devDependencies": {
+		"@faker-js/faker": "8.0.0",
+		"@playwright/test": "1.39.0",
+		"@types/node": "20.9.0",
+		"@typescript-eslint/eslint-plugin": "6.11.0",
+		"@typescript-eslint/parser": "6.11.0",
+		"allure-commandline": "2.24.1",
+		"allure-playwright": "2.9.2",
+		"dotenv": "16.3.1",
+		"eslint": "8.53.0",
+		"eslint-plugin-only-warn": "1.1.0",
+		"prettier": "3.1.0",
+		"typescript": "5.2.2"
+	}
+}

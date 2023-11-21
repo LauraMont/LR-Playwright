@@ -1,0 +1,49 @@
+{
+	"editor.quickSuggestions": {
+		"comments": false,
+		"strings": true,
+		"other": true
+	},
+	"workbench.colorTheme": "SynthWave '84",
+	"cSpell.language": "en,es",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[Typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"eslint.validate": ["typescript", "javascript", "ts", "js"],
+	"eslint.format.enable": true,
+	"eslint.codeAction.showDocumentation": {
+		"enable": true
+	},
+	"editor.formatOnType": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.wordWrap": "on",
+	"editor.accessibilitySupport": "off",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"python.formatting.provider": "autopep8",
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+	"html.format.wrapLineLength": 150,
+	"workbench.settings.editor": "json",
+	"git.enableSmartCommit": true,
+	"editor.tabCompletion": "on",
+	"editor.lineHeight": 20,
+	"editor.cursorBlinking": "expand",
+	"workbench.iconTheme": "material-icon-theme",
+	"cSpell.autoFormatConfigFile": true,
+	"material-icon-theme.folders.associations": {
+		"test-plan": "Docs",
+		"How-to": "Review",
+		"Features": "Container",
+		"in-sprint": "Storybook",
+		"regression": "resource"
+	}
+}
