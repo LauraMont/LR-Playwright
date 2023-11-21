@@ -13,6 +13,7 @@ Clonar repositorio:
 
 ```markdown
 git clone https://github.com/LauraMont/LR-Playwright.git
+```
 
 ### Pre-requisitos 📋
 
@@ -27,34 +28,30 @@ Debe contar con los siguientes recursos:
 Pasos para iniciar el proyecto:
 
 **Instala todas las dependencias**
+
 ```
-
 npm ci
-
 ```
 
 **Ejecutar Playwright con modo UI**
 
 ```
-
 npm test
-
 ```
 
 **Ejecutar todos los tests (Headless en Chromium)**
 
 ```
-
 npm run regression
+```
 
-````
 **Ejecutar un test (Headless en Chromium)**
 
 ```
 
 npm run file tests/rutaFile/exampleAdvanceTest.spec.ts
 
-````
+```
 
 ## Inicia el proyecto por primera vez
 
